@@ -26,7 +26,12 @@
 .web-des {
   text-align: left;
 }
-
+.section-sub-title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
 .section-title {
   font-size: 32px;
   font-weight: 800;
@@ -147,4 +152,35 @@ header nav button {
   width: 100%;
   height: 550px;
   margin-top: 48px;
+}
+.current-target {
+  margin: 131px 152px 131px 148px;
+}
+
+.inspiration-content {
+  display: flex;
+  margin-top: 48px;
+  gap: 32px;
+  justify-content: space-around;
+  align-items: center;
+}
+.inspiration {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+  text-align: left;
+}
+.ins-a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.ins-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.ins-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.ins-3{
+    background: rgba(255, 223, 0, 0.05);
 }
