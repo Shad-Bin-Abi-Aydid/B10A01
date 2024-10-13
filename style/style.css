@@ -27,6 +27,14 @@
   text-align: left;
 }
 
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+}
+
 /* Nav Styles */
 
 header nav {
@@ -94,12 +102,6 @@ header nav button {
   padding: 80px 97px 80px 97px;
 }
 
-.why-web-title {
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 37px;
-  letter-spacing: 0%;
-}
 .why-web-container {
   margin-top: 48px;
 }
@@ -130,5 +132,19 @@ header nav button {
   opacity: 0.7;
   padding: 12px 20px 12px 20px;
   cursor: pointer;
+}
 
+/* My Inspiration Style start */
+
+.my-inspiration {
+  margin: 131px 152px 131px 148px;
+}
+.inspiration-video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  width: 100%;
+  height: 550px;
+  margin-top: 48px;
 }
