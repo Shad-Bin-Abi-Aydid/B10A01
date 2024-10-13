@@ -1,0 +1,96 @@
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Normal */
+
+.color-1 {
+  color: rgb(13, 19, 33);
+}
+
+.text-center {
+  text-align: center;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  opacity: 0.8;
+}
+
+/* Nav Styles */
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+header nav h3 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+}
+
+header nav button {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 17px 24px 17px 24px;
+  margin: 0px 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* Banner Style */
+
+.banner {
+  background-image: url("./assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 80px 0;
+}
+.banner-content {
+  padding: 26px 221px 45px 221px;
+}
+.banner-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+}
+.banner-button {
+  padding: 21px 24px 21px 24px;
+  margin-top: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  cursor: pointer;
+}
+
+/* Why-Web Styles */
+
+.why-web {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin: 131px 152px 131px 148px;
+  padding: 80px 97px 80px 97px;
+}
+
+.why-web-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+}
